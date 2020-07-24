@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+#body-container {
+    margin: auto;
+    border: 1px solid green;
+    width:1000px;
+    height: 100vh;
+}
+/*Menu*/
+#menu-div {
+    background: #363636;
+    margin: 0px;
+}
+#menu-ul{
+    margin: 0px;
+    text-align: center;
+    height:55px;
+    padding-top: 25px
+}
+#menu-div ul li{
+    list-style: none;
+    display: inline;
+    padding-right:30px;
+    font-size: 20px;
+}
+#menu-div ul li a{
+    text-decoration: none;
+    color: #D8D8D8;
+}
+#menu-div ul li a:hover{
+    font-size: 25px;
+    transition: font-size 0.3s ease-out;
+    color: #F6DC3D;
+}
+#menu-div ul li a.active{
+    font-size: 25px;
+    color: #F6DC3D;
+}
+
+/*Body-content*/
+
+#content-div{
+    background: #EBEAE5;
+/*    margin:0px;*/
+    height:750px;
+    
+}
+#content-div h3{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#book-image{
+    float: left;
+    padding-top: 25px;
+    padding-left: 55px;
+    
+}
+
+#book-text{
+    float: right;
+    padding-top: 65px;
+    padding-right: 25px;
+    padding-left: 25px
+}
+#book-text p{
+    font-size: 22px;
+    padding-bottom: 25px
+}
+#first-paragraph{
+    text-align: center;
+}
+#second-paragraph{
+    text-align: center;
+}
+#submit-button button{
+    padding: 10px 25px;
+    border-radius: 7px;
+    background: #F88E37;
+    color: #FDFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    width: 330px
+}
+#submit-button{
+    padding-left: 75px;
+}
+#clear{
+    clear: both;
+}
+
+/*Footer*/
+#footer{
+    background:#011926; 
+    text-align: center;
+    color: #FDFFFF;
+    font-size: 20px;
+    height: 121px
+}
+
+#footer p{
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+}
+#footer button{
+    padding: 10px 25px;
+    border-radius: 7px;
+    background: #F88E37;
+    color: #FDFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    width: 600px;
+}
